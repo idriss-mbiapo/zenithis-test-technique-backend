@@ -10,7 +10,7 @@ class Trajet extends Model
 {
      use HasFactory;
 
-    protected $fillable = ['lieu_depart', 'lieu_arrivee', 'date_trajet'];
+    protected $fillable = ['user_id','lieu_depart', 'lieu_arrivee', 'date_trajet'];
 
     public function user()
     {

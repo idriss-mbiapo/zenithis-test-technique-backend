@@ -9,8 +9,8 @@ Route::post('/login', [LoginController::class, 'login'])->name('login');
 
 Route::middleware('auth:api')->group(function () {
     Route::get('trajets', [TrajetController::class, 'index']);
-    Route::post('trajets', [TrajetController::class, 'store']);
-    Route::put('trajets/{id}', [TrajetController::class, 'update']);
-    Route::delete('trajets/{id}', [TrajetController::class, 'destroy']);
+    Route::post('trajet/create', [TrajetController::class, 'store']);
+    Route::put('trajet/{id}', [TrajetController::class, 'update']);
+    Route::delete('trajet/{id}', [TrajetController::class, 'destroy']);
 });
 
