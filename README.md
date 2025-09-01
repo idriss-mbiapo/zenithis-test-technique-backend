@@ -9,7 +9,12 @@
   - Mettre à jour un trajet si l’utilisateur en est propriétaire
   - Supprimer un trajet si l’utilisateur en est propriétaire
 
- 
+## Technologies utilisées
+Laravel 12
+JWT AUTH
+Composer
+MySQL
+
 ## Installation
 
 ## Cloner le projet
